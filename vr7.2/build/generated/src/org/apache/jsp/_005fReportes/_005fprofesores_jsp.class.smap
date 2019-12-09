@@ -1,0 +1,19 @@
+SMAP
+_005fprofesores_jsp.java
+JSP
+*S JSP
+*F
++ 0 _profesores.jsp
+_Reportes/_profesores.jsp
++ 1 _conection.jsp
+_Reportes/_conection.jsp
+*L
+5,10:56
+5#1,12:65
+17,15:78
+31,4:93
+14#0,2:96
+20,10:98
+33,15:112
+47,4:127
+*E

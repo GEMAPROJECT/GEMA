@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/11/2019, 10:24:16 PM
+    Author     : MAKKMA
+*/
+.container h1{
+    text-align: center;  
+}
+.titulos{
+    font-family: timesnewromans;
+    color: gray;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.imagen {
+    width: 35%;
+    height: 25%;  
+    margin: 300px auto;
+    background: white;
+    text-align: center;
+    border-radius: 40px;
+}
+.btn12{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background: #007bff;
+    color: white;
+    box-shadow: 2px 3px rgba(0,0,0,0.3);
+} 
+
+.imagen2{
+    border-radius: 60px;
+    animation-duration: 3s;
+     animation-delay: 0s;
+    animation-name: sBote;
+}
+
+@keyframes sBote{
+    from{
+         width: 50px; 
+    }to{     
+         width: 150px;
+    }     
+}
+
+@media only screen and (max-width: 1370px ){
+    
+    .imagen {
+    width: 35%;
+    height: 35%;  
+    margin: 150px auto;
+    background: white;
+    text-align: center;
+    border-radius: 40px;
+}
+}
